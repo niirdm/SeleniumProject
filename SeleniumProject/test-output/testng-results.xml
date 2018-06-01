@@ -2,56 +2,56 @@
 <testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-06-01T16:49:06Z" name="Default suite" finished-at="2018-06-01T16:49:44Z" duration-ms="38067">
+  <suite started-at="2018-06-01T17:15:20Z" name="Default suite" finished-at="2018-06-01T17:15:42Z" duration-ms="22418">
     <groups>
     </groups>
-    <test started-at="2018-06-01T16:49:06Z" name="Default test" finished-at="2018-06-01T16:49:44Z" duration-ms="38067">
+    <test started-at="2018-06-01T17:15:20Z" name="Default test" finished-at="2018-06-01T17:15:42Z" duration-ms="22418">
       <class name="amazonTestPackage.AmazonTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:amazonTestPackage.AmazonTest@7c83dc97]" started-at="2018-06-01T16:49:06Z" name="setUp" finished-at="2018-06-01T16:49:07Z" duration-ms="1524" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:amazonTestPackage.AmazonTest@7c83dc97]" started-at="2018-06-01T17:15:20Z" name="setUp" finished-at="2018-06-01T17:15:21Z" duration-ms="1285" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="openAmazonWebPage()[pri:0, instance:amazonTestPackage.AmazonTest@7c83dc97]" started-at="2018-06-01T16:49:07Z" name="openAmazonWebPage" finished-at="2018-06-01T16:49:22Z" duration-ms="14260" status="PASS">
+        <test-method signature="openAmazonWebPage()[pri:0, instance:amazonTestPackage.AmazonTest@7c83dc97]" started-at="2018-06-01T17:15:21Z" name="openAmazonWebPage" finished-at="2018-06-01T17:15:25Z" duration-ms="3197" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAmazonWebPage -->
-        <test-method signature="login()[pri:1, instance:amazonTestPackage.AmazonTest@7c83dc97]" started-at="2018-06-01T16:49:22Z" name="login" finished-at="2018-06-01T16:49:27Z" duration-ms="5046" status="PASS">
+        <test-method signature="login()[pri:1, instance:amazonTestPackage.AmazonTest@7c83dc97]" started-at="2018-06-01T17:15:25Z" name="login" finished-at="2018-06-01T17:15:29Z" duration-ms="4570" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="search()[pri:2, instance:amazonTestPackage.AmazonTest@7c83dc97]" started-at="2018-06-01T16:49:27Z" name="search" finished-at="2018-06-01T16:49:31Z" duration-ms="4231" status="PASS">
+        <test-method signature="search()[pri:2, instance:amazonTestPackage.AmazonTest@7c83dc97]" started-at="2018-06-01T17:15:29Z" name="search" finished-at="2018-06-01T17:15:32Z" duration-ms="2769" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method signature="verifySearchResult()[pri:3, instance:amazonTestPackage.AmazonTest@7c83dc97]" started-at="2018-06-01T16:49:31Z" name="verifySearchResult" finished-at="2018-06-01T16:49:31Z" duration-ms="35" status="PASS">
+        <test-method signature="verifySearchResult()[pri:3, instance:amazonTestPackage.AmazonTest@7c83dc97]" started-at="2018-06-01T17:15:32Z" name="verifySearchResult" finished-at="2018-06-01T17:15:32Z" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchResult -->
-        <test-method signature="openPage2AndVerify()[pri:4, instance:amazonTestPackage.AmazonTest@7c83dc97]" started-at="2018-06-01T16:49:31Z" name="openPage2AndVerify" finished-at="2018-06-01T16:49:31Z" duration-ms="246" status="PASS">
+        <test-method signature="openPage2AndVerify()[pri:4, instance:amazonTestPackage.AmazonTest@7c83dc97]" started-at="2018-06-01T17:15:32Z" name="openPage2AndVerify" finished-at="2018-06-01T17:15:32Z" duration-ms="233" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openPage2AndVerify -->
-        <test-method signature="addToListThirdProduct()[pri:5, instance:amazonTestPackage.AmazonTest@7c83dc97]" started-at="2018-06-01T16:49:31Z" name="addToListThirdProduct" finished-at="2018-06-01T16:49:41Z" duration-ms="10105" status="PASS">
+        <test-method signature="addToListThirdProduct()[pri:5, instance:amazonTestPackage.AmazonTest@7c83dc97]" started-at="2018-06-01T17:15:32Z" name="addToListThirdProduct" finished-at="2018-06-01T17:15:40Z" duration-ms="7883" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToListThirdProduct -->
-        <test-method signature="goToWishList()[pri:6, instance:amazonTestPackage.AmazonTest@7c83dc97]" started-at="2018-06-01T16:49:41Z" name="goToWishList" finished-at="2018-06-01T16:49:43Z" duration-ms="2154" status="PASS">
+        <test-method signature="goToWishList()[pri:6, instance:amazonTestPackage.AmazonTest@7c83dc97]" started-at="2018-06-01T17:15:40Z" name="goToWishList" finished-at="2018-06-01T17:15:42Z" duration-ms="1951" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToWishList -->
-        <test-method signature="verifyItemIsAddedToList()[pri:7, instance:amazonTestPackage.AmazonTest@7c83dc97]" started-at="2018-06-01T16:49:43Z" name="verifyItemIsAddedToList" finished-at="2018-06-01T16:49:43Z" duration-ms="33" status="PASS">
+        <test-method signature="verifyItemIsAddedToList()[pri:7, instance:amazonTestPackage.AmazonTest@7c83dc97]" started-at="2018-06-01T17:15:42Z" name="verifyItemIsAddedToList" finished-at="2018-06-01T17:15:42Z" duration-ms="115" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyItemIsAddedToList -->
-        <test-method signature="removeFromFavorites()[pri:8, instance:amazonTestPackage.AmazonTest@7c83dc97]" started-at="2018-06-01T16:49:43Z" name="removeFromFavorites" finished-at="2018-06-01T16:49:44Z" duration-ms="247" status="PASS">
+        <test-method signature="removeFromFavorites()[pri:8, instance:amazonTestPackage.AmazonTest@7c83dc97]" started-at="2018-06-01T17:15:42Z" name="removeFromFavorites" finished-at="2018-06-01T17:15:42Z" duration-ms="219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeFromFavorites -->
-        <test-method signature="verifyDeletion()[pri:9, instance:amazonTestPackage.AmazonTest@7c83dc97]" started-at="2018-06-01T16:49:44Z" name="verifyDeletion" finished-at="2018-06-01T16:49:44Z" duration-ms="25" status="PASS">
+        <test-method signature="verifyDeletion()[pri:9, instance:amazonTestPackage.AmazonTest@7c83dc97]" started-at="2018-06-01T17:15:42Z" name="verifyDeletion" finished-at="2018-06-01T17:15:42Z" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDeletion -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:amazonTestPackage.AmazonTest@7c83dc97]" started-at="2018-06-01T16:49:44Z" name="tearDown" finished-at="2018-06-01T16:49:44Z" duration-ms="133" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:amazonTestPackage.AmazonTest@7c83dc97]" started-at="2018-06-01T17:15:42Z" name="tearDown" finished-at="2018-06-01T17:15:42Z" duration-ms="106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -1,21 +1,23 @@
+/****************************************
+ * Title  : Selenium Task
+ * Author : Nehir Erdem
+ * Summary: Several tests on amazon.com
+ * Date   : 01/06/2018
+ ****************************************/
+
 package amazonTestPackage;
 
 import java.util.List;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -51,11 +53,12 @@ public class AmazonTest {
 		}
 
 	}
+	
 	@Test (priority=1)
 	public void login() {
 		
 		//user account info
-		final String USERNAME = "seleniumtest058";
+		// USERNAME used for amazon account= "seleniumtest058"
 		final String EMAIL = "seleniumtest058@gmail.com";
 		final String PASSWORD = "insider123";
 
@@ -169,7 +172,7 @@ public class AmazonTest {
 		    asin=productParams.substring(24, 34);
 		    
 		    if(asin.equals(productCode)) {
-		    		WebElement element = allElements.get(i);
+		    		
 		    		driver.findElement(By.xpath("//*[@id=\"a-autoid-5\"]/span/input")).click();
 		    		System.out.println("Item with productCode="+asin+" is deleted.");
 		    		boo=false;
@@ -214,5 +217,5 @@ public class AmazonTest {
 			driver.quit();
 		}
 	}
-	
+	//end
 }
